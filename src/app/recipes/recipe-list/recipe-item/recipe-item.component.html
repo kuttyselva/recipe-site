@@ -1,3 +1,16 @@
-<p>
-  recipe-item works!
-</p>
+<a href="#" style="text-decoration: none" (click)="onSelected()">
+  <div class="card mb-3 text-white bg-dark" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+   
+      <img src={{recipe.imagePath}} class="card-img img-thumbnail" alt={{recipe.name}}>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{recipe.name}}</h5>
+        <p class="card-text">{{recipe.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>

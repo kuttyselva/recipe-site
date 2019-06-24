@@ -16,5 +16,9 @@ constructor() { }
 
   ngOnInit() {
   }
+  onIngredientAdded(ingredients:Ingredients){
+    this.ingredients.push(ingredients);
+    console.log(ingredients);
+  }
 
 }
